@@ -16,12 +16,12 @@ export class AppComponent {
   } // incNumPressed()
 
   showMessage(){
+    this.message = "Look at the star";
+    
     if(this.displayMessage) {
-      this.message = "Look at the star";
       this.displayMessage = false;
     }
     else{
-      this.message = "";
       this.displayMessage = true;
     } // if..else displayMessage
   } // showMessage()
