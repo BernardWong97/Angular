@@ -15,6 +15,6 @@ import { ListComponentComponent } from './list-component/list-component.componen
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ListComponentComponent]
 })
 export class AppModule { }
