@@ -13,4 +13,9 @@ export class DataService {
       .map(data => data.json());
   }
 
+  GetWeatherData(): Observable<any> {
+    return this.http.get("http://api.openweathermap.org/data/2.5/forecast?q=Galway,ie&APPID=95c6b320c10e382474802ac7b6c0b657")
+      .map(data => data.json());
+  }
+
 }
