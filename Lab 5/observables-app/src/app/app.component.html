@@ -9,7 +9,10 @@
 <h1>Weather in Galway</h1>
 
 <table border="1">
-  <tr><td>Time</td><td>Description</td></tr>
+  <tr>
+    <td>Time</td>
+    <td>Description</td>
+  </tr>
   <tr *ngFor="let key of keys">
     <td>{{list[key].dt_txt}}</td>
     <td>{{list[key].weather[0].description}}</td>
